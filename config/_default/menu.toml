@@ -1,0 +1,5 @@
+[[main]]
+  name = "Repository"
+  identifier = "repository"
+  url = "https://github.com/razonyang/hugo-theme-bootstrap-skeleton"
+  pre = '<i class="fab fa-fw fa-github me-1"></i>'
