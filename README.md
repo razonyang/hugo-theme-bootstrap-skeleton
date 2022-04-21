@@ -76,6 +76,12 @@ $ git add go.mod go.sum
 $ git commit -m 'Update the theme'
 ```
 
+## Deployment
+
+Please make sure you've change the `baseURL` on `/config/production/config.toml` before deploying your site.
+
+This template supports Netlify out-of-box. You could find more deployment methods on [Hosting & Deployment](https://gohugo.io/hosting-and-deployment/).
+
 ## Documentations
 
 - [English](https://hbs.razonyang.com/en)
