@@ -8,7 +8,7 @@ HUGO_ENABLEGITINFO = "true"
 GO_VERSION = "1.17.7"
 
 [context.production]
-command = "npm install && hugo --minify -b=https://hbs-skeleton.netlify.app/"
+command = "npm install && hugo --minify"
 
 [context.production.environment]
 HUGO_ENV = "production"
