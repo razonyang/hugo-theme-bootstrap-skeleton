@@ -27,3 +27,6 @@ taxonomies:
 
 build:
   writeStats: true
+
+permalinks:
+  news: /news/:year/:month/:title/
