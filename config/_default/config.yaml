@@ -1,0 +1,29 @@
+baseURL: /
+title: Hugo Bootstrap Skeleton
+theme: github.com/razonyang/hugo-theme-bootstrap
+copyright: 'Copyright © 2016-{year} Razon Yang. All Rights Reserved.'
+defaultContentLanguage: en
+# hasCJKLanguage: true # Uncomment it if your content contains Chinese/Japanese/Korean Languages.
+# defaultContentLanguageInSubdir: true
+# disableLanguages:
+#  - fr
+#  - zh-cn
+#  - zh-tw
+paginate: 10
+# paginatePath: page
+enableRobotsTXT: true
+enableEmoji: true
+pygmentsUseClasses: true
+# googleAnalytics: UA-123-45
+# disqusShortname: yourdiscussshortname
+
+blackfriday:
+  hrefTargetBlank: true
+
+taxonomies:
+  category: categories
+  series: series
+  tag: tags
+
+build:
+  writeStats: true

@@ -1,0 +1,14 @@
+name: Razon Yang
+# avatar: images/profile.png # Avatar image. Default to "images/profile.webp".
+bio: 'Gopher, PHPer, Full Stack Engineer.'
+company: Company # HTML markup are supported, such as: <a href="https://example.com" target="_blank" rel="noopener noreferrer">Company</a>.
+location: Earth # HTML markup are supported, such as: <a href='https://www.openstreetmap.org/search?query=Earth'>Earth</a>.
+# about: https://razonyang.com # The external about page. The internal about page will be used if not set.
+params: {
+  # layout: compact
+}
+social:
+  email: razonyang@gmail.com
+  github: razonyang
+  twitter: razonyang
+  rss: "" # Remove RSS

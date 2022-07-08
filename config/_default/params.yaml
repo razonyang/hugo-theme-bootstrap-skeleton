@@ -1,0 +1,183 @@
+mainSections:
+  - blog
+  - posts
+
+# titleSeparator: | # Title separator. Default to -.
+
+description: An extreme fast, responsive and feature-rich blog theme for Hugo
+keywords: Hugo, Bootstrap, Blog Theme
+# images:
+#   - site-feature-image.jpg
+
+# metaRobots: noindex, nofollow # Default value for Meta Tag robots
+# metaRobots:  # disable Meta Tag robots
+
+# logo: images/logo.png # Logo image. Default to images/logo.webp.
+# logo: false # Disable Logo
+brand: HBS
+
+palette: purple # Default palette. Optional. You'll need to clear the browser cache after modifying this.
+# Available palettes. Default to ALL. Empty array means disable.
+# palettes:
+#  - blue
+#  - purple
+#  - brown
+
+# color: dark # light, dark or dynamic. Default to dynamic.
+
+# fullWidth: true # Full width.
+# fixedHeader: false # Turn on/off fixed header.
+
+# dateFormat: Jan 2, 2006
+
+# Google Adsense
+googleAdsense: 
+
+# math: true # Enable math globally.
+# toc: false # Disable TOC globally.
+# tocPosition: content
+# breadcrumb: false # Disable breadcrumb
+# breadcrumbDivider: > # Breadcrumb divider
+# diagram: true
+# socialShare: false # disable social network sharing
+# searchBar: false # disable search-bar
+
+# poweredBy: false # Whether to show powered by.
+
+# readingTime: false # Whether to display the reading time.
+# postDate: false # Whether to display the post date in the post meta section.
+
+# featuredPostCount: 10 # The number of featured posts shown in sidebar. Turn off by setting it to false.
+# recentPostCount: 10 # The number of recent posts shown in sidebar. Turn off by setting it to false.
+# relatedPostCount: 10 # The number of related posts. Turn off by setting it to false.
+# categoryCount: 10 # The number of categories shown in sidebar. Turn off by setting it to false.
+# tagCount: 10 # The number of tags shown in sidebar. Turn off by setting it to false.
+# seriesCount: 20 # The number of series shown in sidebar. Turn off by setting it to false.
+# taxonomyPaginate: 5 # Default to 10.
+taxonomyPostCount: 20 # The number of taxonomy's posts. Turn off by setting it to false.
+countTaxonomyPosts: true # Count posts of taxonomy.
+
+# sidebarTaxonomies: [categories, tags, series] # The order of taxonomies on the sidebar.
+
+# pinnedPost: false # Turn on/off pinned posts.
+pinnedPostCount: 3 # The number of pinned posts.
+
+# Custom CSS and JS
+customCSS:
+customJS:
+
+tocWordCount: 1 # TOC is displayed only if the post's word count exceeds this value.
+
+titleCase: true # Capitalized title.
+
+viewer: true # Image Viewer
+
+# backgroundImage: ['/images/bg-light.png', '/images/bg-dark.png']
+# rss: home # link the RSS button to homepage all the times.
+
+sidebar:
+  # fixed: true
+
+codeBlock:
+  # maxLines: 8
+  lineNos: false # true/false represents that show/hide the line numbers by default.
+
+post:
+  # excerpt: description
+  # excerptMaxLength: 120
+  # copyright: false # Whether to display copyright section on each post.
+  # plainifyExcerpt: false # Format excerpt in HTML if false.
+  featuredImage: true # Show the featured image above the content.
+  numberifyHeadings: true # Count headings automatically.
+  # numberifyHeadingsEndLevel: 4 # The depth of headings to count. Default to 6.
+  numberifyHeadingsSeparator: . # The separator between of number and headings.
+  # tocStyleType: decimal # The TOC's CSS list-style-type property.
+
+archive:
+  paginate: 20 # Archive pagination. Default to 100.
+  # dateFormat: 01-02 # Archive date format. Default to Jan 2.
+
+analytics:
+  # baidu:  # Baidu Analytics
+
+# Site verification
+siteVerification:
+  google: 
+  bing: 
+  baidu: 
+  baiduUnion:  # Baidu Union
+  so: 
+  sogou: 
+  shenma: 
+
+creativeCommons:
+  # by: true # Credit must be given to you, the creator.
+  # nc: true # Only noncommercial use of your work is permitted.
+  # nd: true # No derivatives or adaptations of your work are permitted.
+  # sa: true # Adaptations must be shared under the same terms.
+
+utterances:
+  repo: razonyang/hugo-theme-bootstrap-skeleton # Replace with your repository.
+  #issueTerm: pathname # pathname, url, title, og:title
+  label: comment
+  # By default, light and dark mode correspond to github-light and github-dark, respectively.
+  # Optional values: github-light, github-dark, preferred-color-scheme, github-dark-orange, icy-dark, dark-blue, photon-dark.
+  #theme:  
+
+search:
+  paginate: 5 # Pagination. Default to 10.
+  # resultContentWordCount: 240 # The maximum word count of result content for displaying.
+  # Fuse.js options. See https://fusejs.io/api/options.html.
+  fuse:
+    # ignoreLocation: true
+    # location: 0
+    # isCaseSensitive: false
+    # minMatchCharLength: 1
+    threshold: 0.1
+    # distance: 100
+    # useExtendedSearch: true
+
+reward:
+  alipay: images/reward/alipay.png
+  wechat: images/reward/wechat.png
+  #paypal: images/reward/paypal.png
+  #patreon: images/reward/patreon.png
+  #liberapay: images/reward/liberapay.png
+
+#[share]
+  #addThis:  # AddThis pubid.
+
+# Comment or remove this settings to disable font size switcher.\
+fontSize:
+  # extraSmall: .8rem
+  # small: .9rem
+  # large: 1.1rem
+  # extraLarge: 1.2rem
+
+pwa:
+  manifest:
+    # name:  # Default to site title.
+    short_name: HBS
+    # display: fullscreen # Default to standalone.
+    # description:  # Default to site description.
+    # theme_color: 
+    # background_color: 
+
+    # Icons
+    # [[pwa.manifest.icons]]
+    #   sizes: 96x96
+    #   src: /images/icons/icon-96x96.png
+    # [[pwa.manifest.icons]]
+    #   sizes: 144x144
+    #   src: /images/icons/icon-144x144.png
+
+contact:
+  endpoint: https://getform.io/f/56041c81-9e03-4c24-b9c5-61238854d4cd # Backend endpoint, remove this line if you're using Netlify.
+  # file: true # Enable file upload
+  # fileField: image # The name of file field.
+
+repo:
+  url: https://github.com/razonyang/hugo-theme-bootstrap-skeleton
+  # branch: main
+  # subPath: exampleSite
+  # dateFormat: 02/01/2006, 15:04:05 PM
