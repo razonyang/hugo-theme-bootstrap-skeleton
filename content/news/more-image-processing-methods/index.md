@@ -10,8 +10,14 @@ reward: true
 pinned: false
 carousel: false
 series:
-categories: []
-tags: []
+  - News
+categories:
+  - Image
+tags: 
+  - Crop
+  - Fit
+  - Fill
+  - Filters
 images: []
 ---
 
