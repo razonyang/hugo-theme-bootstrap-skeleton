@@ -84,6 +84,6 @@ This template supports Netlify out-of-box. You could find more deployment method
 
 ## Documentations
 
-- [English](https://hbs.razonyang.com/en)
-- [简体中文](https://hbs.razonyang.com/zh-cn)
-- [繁體中文](https://hbs.razonyang.com/zh-tw)
+- [English](https://hbs.razonyang.com/v1/en/)
+- [简体中文](https://hbs.razonyang.com/v1/zh-cn/)
+- [繁體中文](https://hbs.razonyang.com/v1/zh-tw/)
