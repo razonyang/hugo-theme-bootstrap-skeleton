@@ -181,3 +181,7 @@ repo:
   # branch: main
   # subPath: exampleSite
   # dateFormat: 02/01/2006, 15:04:05 PM
+
+topAppBar:
+  social:
+    github: https://github.com/razonyang/hugo-theme-bootstrap
