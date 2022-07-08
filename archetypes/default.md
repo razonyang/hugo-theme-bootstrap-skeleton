@@ -17,6 +17,6 @@ images: []
 
 Summary.
 
-<!--more1-->
+<!--more-->
 
 Content.
