@@ -1,6 +1,8 @@
-+++
-title = "Tags"
-[menu.main]
-  weight = 30
-  pre = '<i class="fas fa-fw fa-tags"></i>'
-+++
+---
+title: Tags
+menu:
+  main:
+    parent: blog
+    weight: 4
+    pre: <i class="fas fa-fw fa-tags"></i>
+---

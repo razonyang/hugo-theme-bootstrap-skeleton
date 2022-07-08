@@ -1,6 +1,8 @@
-+++
-title = "Categories"
-[menu.main]
-  weight = 20
-  pre = '<i class="fas fa-fw fa-folder"></i>'
-+++
+---
+title: Categories
+menu:
+  main:
+    parent: blog
+    weight: 3
+    pre: <i class="fas fa-fw fa-folder"></i>
+---
