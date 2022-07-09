@@ -38,16 +38,19 @@ $ git push origin main
 
 If you're located at China mainland without VPN, the Hugo module download may fail.
 
-There are two proxies for this: [GOPROXY.CN](https://goproxy.cn/) and [GOPROXY.IO](https://goproxy.io/).
+There are two proxies for this: [GOPROXY.CN](https://goproxy.cn) and [GOPROXY.IO](https://goproxy.io).
 
-```shell
-$  go env -w GOPROXY=https://goproxy.cn,direct
+```bash
+$ export HUGO_MODULE_PROXY=https://goproxy.cn
 ```
 
-or 
+> Please note that, Hugo doesn't respect the `GOPROXY` env var, please use `HUGO_MODULE_PROXY` instead.
 
-```shell
-$ go env -w GOPROXY=https://goproxy.io,direct
+You can also set the `module.proxy` instead of using env var.
+
+```yaml
+module:
+  proxy: https://goproxy.cn
 ```
 
 ## Server
