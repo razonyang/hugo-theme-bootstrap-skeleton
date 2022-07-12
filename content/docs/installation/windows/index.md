@@ -1,6 +1,7 @@
 ---
 title: Install on Windows
-series:
+linkTitle: Windows
+series: 
   - Guide
 categories:
   - Installation
