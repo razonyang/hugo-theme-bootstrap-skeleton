@@ -9,6 +9,8 @@ params: {
 }
 social:
   email: razonyang@gmail.com
-  github: razonyang
+  github: razonyang/hugo-theme-bootstrap
   twitter: razonyang
+  patreon: razonyang
+  paypal: razonyang
   rss: "" # Remove RSS
