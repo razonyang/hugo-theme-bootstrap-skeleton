@@ -31,5 +31,5 @@ build:
 permalinks:
   news: /news/:year/:month/:title/
 
-module:
+# module:
   # proxy: https://goproxy.cn
