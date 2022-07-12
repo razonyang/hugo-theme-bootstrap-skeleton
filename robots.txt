@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://hbs-skeleton.netlify.app/sitemap.xml
+Sitemap: https://razonyang.github.io/hugo-theme-bootstrap-skeleton/sitemap.xml
