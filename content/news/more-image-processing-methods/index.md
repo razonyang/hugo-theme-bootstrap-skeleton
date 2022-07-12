@@ -8,7 +8,7 @@ comment: true
 toc: true
 reward: true
 pinned: false
-carousel: false
+carousel: true
 series:
   - News
 categories:
