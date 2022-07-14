@@ -6,6 +6,8 @@ FROM klakegg/hugo:ext-ubuntu as builder
 WORKDIR /src
 COPY . /src
 
+ENV HUGO_ENV=production
+
 # Base URL
 ARG HUGO_BASEURL=/
 ENV HUGO_BASEURL=${HUGO_BASEURL}
@@ -23,7 +25,7 @@ RUN npm install
 RUN npm install -g @fullhuman/postcss-purgecss rtlcss
 
 # Build site
-RUN hugo --minify --gc --enableGitInfo -b $HUGO_BASEURL
+RUN hugo --minify --gc --enableGitInfo
 
 # Set the fallback 404 page if defaultContentLanguageInSubdir is enabled, please replace the `en` with your default language code.
 # RUN cp ./public/en/404.html ./public/404.html
