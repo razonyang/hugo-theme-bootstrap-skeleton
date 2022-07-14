@@ -2,6 +2,15 @@
 
 The starter template for [Hugo Bootstrap Theme](https://github.com/razonyang/hugo-theme-bootstrap) that install the theme as a Hugo module.
 
+## Demo
+
+| Platform | URL |
+|---|---|
+| Netlify | https://hbs-skeleton.netlify.app/ |
+| GitHub Pages | https://razonyang.github.io/hugo-theme-bootstrap-skeleton/ |
+| Cloudflare Pages | https://hbs-skeleton.pages.dev/ |
+| Docker image | See also [Dockerfile](Dockerfile) |
+
 ## Usage
 
 Please make sure you have install the [build tools](https://hbs.razonyang.com/v1/en/docs/getting-started/prerequisites/#build-tools) prior to using this template.
