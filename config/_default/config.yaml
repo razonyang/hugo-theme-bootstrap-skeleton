@@ -24,6 +24,7 @@ taxonomies:
   category: categories
   series: series
   tag: tags
+  authors: authors
 
 build:
   writeStats: true
