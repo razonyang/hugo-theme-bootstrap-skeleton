@@ -90,7 +90,7 @@ $ git commit -m 'Update the theme'
 
 ## Deployment
 
-**Please make sure you've change the `baseURL` on `/config/production/config.toml` before deploying your site.**
+**Please make sure you've change the `baseURL` on `config/production/config.yaml` before deploying your site.**
 
 This template supports GitHub Pages, Docker image, Netlify out-of-box. See also [Deployment](https://hbs.razonyang.com/v1/en/docs/deployment/) for getting more detail.
 
