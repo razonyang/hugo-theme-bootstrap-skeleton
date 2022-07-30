@@ -97,5 +97,5 @@ This template supports GitHub Pages, Docker image, Netlify out-of-box. See also 
 ## Documentations
 
 - [English](https://hbs.razonyang.com/v1/en/)
-- [简体中文](https://hbs.razonyang.com/v1/zh-cn/)
-- [繁體中文](https://hbs.razonyang.com/v1/zh-tw/)
+- [简体中文](https://hbs.razonyang.com/v1/zh-hans/)
+- [繁體中文](https://hbs.razonyang.com/v1/zh-hant/)
