@@ -84,7 +84,7 @@ $ hugo server
 $ hugo mod get -u
 $ hugo mod npm pack
 $ npm i
-$ git add go.mod go.sum
+$ git add go.mod go.sum package.json package-lock.json
 $ git commit -m 'Update the theme'
 ```
 
