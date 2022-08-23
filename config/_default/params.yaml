@@ -21,8 +21,17 @@ palette: purple # Default palette. Optional. You'll need to clear the browser ca
 # Available palettes. Default to ALL. Empty array means disable.
 # palettes:
 #  - blue
-#  - purple
+#  - blue-gray
 #  - brown
+#  - cyan
+#  - green
+#  - indigo
+#  - orange
+#  - pink
+#  - purple
+#  - red
+#  - teal
+#  - yellow
 
 # color: dark # light, dark or dynamic. Default to dynamic.
 
