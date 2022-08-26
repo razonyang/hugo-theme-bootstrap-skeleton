@@ -81,7 +81,7 @@ $ hugo server
 ## Upgrade theme
 
 ```shell
-$ hugo mod get -u
+$ hugo mod get razonyang/hugo-theme-bootstrap@master
 $ hugo mod npm pack
 $ npm i
 $ git add go.mod go.sum package.json package-lock.json
