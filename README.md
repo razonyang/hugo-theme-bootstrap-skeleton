@@ -83,7 +83,7 @@ $ hugo server
 ```shell
 $ hugo mod get razonyang/hugo-theme-bootstrap@master
 $ hugo mod npm pack
-$ npm i
+$ npm update
 $ git add go.mod go.sum package.json package-lock.json
 $ git commit -m 'Update the theme'
 ```
