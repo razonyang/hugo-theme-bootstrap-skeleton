@@ -87,6 +87,16 @@ viewer: true # Image Viewer
 
 sidebar:
   # fixed: true
+  # archives: true # Enable archives widget
+  # taxonomiesToggle: false # Disable taxonomy toggle
+  # categories: true # Enable categories widget
+  # tags: true # Enable tags widget
+  # series: true # Enable series widget
+  # authors: true # Enable authors widget
+  # postsToggle: false # Disable posts toggle
+  # featuredPosts: true # Enable featured posts widget
+  # recentPosts: true # Enable featured posts widget
+  # collapsed: true # Collapse sidebar widgets by default on small screens.
 
 codeBlock:
   # maxLines: 8
@@ -102,9 +112,16 @@ post:
   # numberifyHeadingsEndLevel: 4 # The depth of headings to count. Default to 6.
   numberifyHeadingsSeparator: . # The separator between of number and headings.
   # tocStyleType: decimal # The TOC's CSS list-style-type property.
+  # imageTitleAsCaption: true
+  # panel: false # Disable the post panel.
+  # nav: false # Disable post navigations.
+  # The page position after clicking the read more button, read more from content if true. Default to the beginning of page.
+  # It supports only of the manual summaries spliting via <!--more-->.
+  # readMoreFromContent: true
 
 archive:
   paginate: 20 # Archive pagination. Default to 100.
+  # basePath = "/archiv" # The base path of archive pages.
   # dateFormat: 01-02 # Archive date format. Default to Jan 2.
 
 analytics:
@@ -134,6 +151,19 @@ utterances:
   # Optional values: github-light, github-dark, preferred-color-scheme, github-dark-orange, icy-dark, dark-blue, photon-dark.
   #theme:  
 
+#giscus:
+  # repo: ""
+  # repoId: ""
+  # category: ""
+  # categoryId: ""
+  # theme: "dark" # Default to auto.
+  # mapping: "title" # Default to pathname.
+  # inputPosition: "bottom" # Default to top.
+  # reactions: false # Disable reactions.
+  # metadata: true # Emit discussion metadata.
+  # lang: "en" # Specify language, default to site language.
+  # lazyLoading: false # Default to true.
+
 search:
   paginate: 5 # Pagination. Default to 10.
   # resultContentWordCount: 240 # The maximum word count of result content for displaying.
@@ -147,6 +177,14 @@ search:
     # distance: 100
     # useExtendedSearch: true
 
+#docsearch:
+  # https://docsearch.algolia.com/docs/api
+  # container: ".search-bar" # replace it if necessary, default to '.search-bar'.
+  # appId: ""
+  # apiKey: ""
+  # indexName: ""
+  # debug: true
+
 reward:
   alipay: images/reward/alipay.png
   wechat: images/reward/wechat.png
@@ -154,10 +192,13 @@ reward:
   #patreon: images/reward/patreon.png
   #liberapay: images/reward/liberapay.png
 
-#[share]
+#share:
   #addThis:  # AddThis pubid.
 
-# Comment or remove this settings to disable font size switcher.\
+#actionsPanel:
+  # disabled: true
+
+# Comment or remove this settings to disable font size switcher.
 fontSize:
   # extraSmall: .8rem
   # small: .9rem
@@ -185,6 +226,8 @@ contact:
   endpoint: https://getform.io/f/56041c81-9e03-4c24-b9c5-61238854d4cd # Backend endpoint, remove this line if you're using Netlify.
   # file: true # Enable file upload
   # fileField: image # The name of file field.
+  # reCaptcha:
+    # siteKey: ""
 
 repo:
   url: https://github.com/razonyang/hugo-theme-bootstrap-skeleton
@@ -197,3 +240,10 @@ topAppBar:
     github: razonyang/hugo-theme-bootstrap
     patreon: razonyang
     paypal: razonyang
+
+#docs:
+  # nav:
+    # expand: true # Expand docs navigations.
+
+#feeds:
+  # content: true
