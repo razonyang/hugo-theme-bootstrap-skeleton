@@ -151,6 +151,23 @@ utterances:
   # Optional values: github-light, github-dark, preferred-color-scheme, github-dark-orange, icy-dark, dark-blue, photon-dark.
   #theme:  
 
+#staticman:
+  #endpoint: https://yourstaticmaninstance # Required, replace with your own Staticman instance.
+  #repo: user/repo # Required
+  #service: github # or gitlab. Default to GitHub.
+  #branch: main # Default to master.
+  #property: comments # Default to comments.
+  #sorting: desc # Default to asc.
+  #reCaptchaKey: "" # The reCaptcha site key.
+  #reCaptchaSecret: "" # The reCaptcha encrypted secret. You'll need to encrypt plain secret via https://yourstaticmaninstance/v3/encrypt/PLAINSECRET.
+  #extraFields: # Extra fields. Available fiedls: url.
+  #  - url
+  #requiredFields: # Extra required fields. Available fields: email and the extra fields.
+  #  - email
+  #  - url
+  #paginate: 5 # Default to 10.
+  #moderation: false # Same as Staticman's moderation.
+
 #giscus:
   # repo: ""
   # repoId: ""
