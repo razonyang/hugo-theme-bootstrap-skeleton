@@ -81,12 +81,14 @@ $ hugo server
 ## Upgrade theme
 
 ```shell
-$ hugo mod get razonyang/hugo-theme-bootstrap@master
+$ hugo mod get github.com/razonyang/hugo-theme-bootstrap@master
 $ hugo mod npm pack
 $ npm update
 $ git add go.mod go.sum package.json package-lock.json
 $ git commit -m 'Update the theme'
 ```
+
+You can also replace the `master` with stable [releases](https://github.com/razonyang/hugo-theme-bootstrap/releases).
 
 ## Deployment
 
