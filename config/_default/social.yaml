@@ -9,6 +9,7 @@ twitter: yourtwitterusername
 weibo: yourweibousername
 zhihu: yourzhihuusername
 instagram: yourinstagramusername
+itchio: youritchiousername
 quora: yourquorausername
 tumblr: yourtumblrusername
 reddit: yourredditusername
@@ -31,3 +32,4 @@ liberapay: yourliberapayaccount
 paypal: razonyang
 patreon: razonyang
 tipeee: yourtipeeeaccount-fr
+# rss = "" # Disable RSS link
