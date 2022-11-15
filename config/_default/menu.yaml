@@ -1,4 +1,6 @@
 main:
   - name: Blog
     identifier: blog
-    pre: '<i class="fas fa-fw fa-blog me-1"></i>'
+    params:
+      icon: '<i class="fas fa-fw fa-blog text-warning"></i>'
+      description: 'Blog Menu Description'

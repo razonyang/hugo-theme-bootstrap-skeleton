@@ -7,6 +7,7 @@ location: Earth # HTML markup are supported, such as: <a href='https://www.opens
 params: {
   # layout: compact
 }
+# See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
 social:
   email: razonyang@gmail.com
   github: razonyang/hugo-theme-bootstrap

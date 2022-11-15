@@ -253,6 +253,7 @@ repo:
   # dateFormat: 02/01/2006, 15:04:05 PM
 
 topAppBar:
+  # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
   social:
     github: razonyang/hugo-theme-bootstrap
     patreon: razonyang
