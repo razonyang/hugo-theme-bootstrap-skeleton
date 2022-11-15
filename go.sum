@@ -2,3 +2,7 @@ github.com/razonyang/hugo-theme-bootstrap v1.0.0-alpha.14.0.20221107023417-de163
 github.com/razonyang/hugo-theme-bootstrap v1.0.0-alpha.14.0.20221107023417-de163532afda/go.mod h1:o+IIPL/5wreiTojnN4MsQqKuxbv3fWAQnMhG9geltQo=
 github.com/razonyang/hugo-theme-bootstrap v1.0.0-alpha.14.0.20221107093149-e813bc499af2 h1:IVVIb2q2xa+lpTeaR89m+FxoWVvbfqvQCEIW/10ZGng=
 github.com/razonyang/hugo-theme-bootstrap v1.0.0-alpha.14.0.20221107093149-e813bc499af2/go.mod h1:o+IIPL/5wreiTojnN4MsQqKuxbv3fWAQnMhG9geltQo=
+github.com/razonyang/hugo-theme-bootstrap v1.0.0-alpha.15 h1:3DfPnb+8FLuMmdzay+KIud5PQFEowf8TSGkjUIHt3Lo=
+github.com/razonyang/hugo-theme-bootstrap v1.0.0-alpha.15/go.mod h1:o+IIPL/5wreiTojnN4MsQqKuxbv3fWAQnMhG9geltQo=
+github.com/razonyang/hugo-theme-bootstrap v1.0.0-alpha.15.0.20221115114142-09a902be931f h1:hvPnroMrxLlyUeaHV9Qf9hhdniDDW+swpEgnnJSuEKk=
+github.com/razonyang/hugo-theme-bootstrap v1.0.0-alpha.15.0.20221115114142-09a902be931f/go.mod h1:o+IIPL/5wreiTojnN4MsQqKuxbv3fWAQnMhG9geltQo=
