@@ -1,6 +1,8 @@
 {
   "comments": {
     "dependencies": {
+      "@algolia/autocomplete-js": "github.com/razonyang/hugo-theme-bootstrap",
+      "@algolia/autocomplete-theme-classic": "github.com/razonyang/hugo-theme-bootstrap",
       "@babel/cli": "github.com/razonyang/hugo-theme-bootstrap",
       "@babel/core": "github.com/razonyang/hugo-theme-bootstrap",
       "@babel/preset-env": "github.com/razonyang/hugo-theme-bootstrap",
@@ -12,6 +14,7 @@
       "@fortawesome/free-solid-svg-icons": "github.com/razonyang/hugo-theme-bootstrap",
       "@fullhuman/postcss-purgecss": "github.com/razonyang/hugo-theme-bootstrap",
       "@popperjs/core": "github.com/razonyang/hugo-theme-bootstrap",
+      "algoliasearch": "github.com/razonyang/hugo-theme-bootstrap",
       "autoprefixer": "github.com/razonyang/hugo-theme-bootstrap",
       "bootstrap": "github.com/razonyang/hugo-theme-bootstrap",
       "date-fns": "github.com/razonyang/hugo-theme-bootstrap",
@@ -38,6 +41,8 @@
     }
   },
   "dependencies": {
+    "@algolia/autocomplete-js": "^1.7.3",
+    "@algolia/autocomplete-theme-classic": "^1.7.3",
     "@babel/cli": "^7.17.3",
     "@babel/core": "^7.17.4",
     "@babel/preset-env": "^7.16.11",
@@ -49,8 +54,9 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@fullhuman/postcss-purgecss": "^4.1.3",
     "@popperjs/core": "^2.11.2",
+    "algoliasearch": "^4.14.2",
     "autoprefixer": "^10.4.2",
-    "bootstrap": "github:twbs/bootstrap#new-masthead-darkmode",
+    "bootstrap": "github:twbs/bootstrap#main",
     "date-fns": "^2.29.3",
     "fuse.js": "^6.5.3",
     "katex": "^0.15.2",
