@@ -7,7 +7,7 @@ The starter template for [Hugo Bootstrap Theme](https://github.com/razonyang/hug
 | Platform | URL |
 |---|---|
 | Netlify | https://hbs-skeleton.netlify.app/ |
-| GitHub Pages | https://razonyang.github.io/hugo-theme-bootstrap-skeleton/ |
+| GitHub Pages | https://projects.razonyang.com/hugo-theme-bootstrap-skeleton/ |
 | Cloudflare Pages | https://hbs-skeleton.pages.dev/ |
 | Docker image | See also [Dockerfile](Dockerfile) |
 
