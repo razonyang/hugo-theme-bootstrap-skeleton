@@ -17,6 +17,10 @@ Please make sure you have install the [build tools](https://hbs.razonyang.com/v1
 
 **1. Clone this repository**
 
+It's recommending cloning the repo by clicking the `Use this template` button, if you're hosting your code on GitHub.
+
+You can also clone it manually.
+
 ```shell
 $ git clone https://github.com/razonyang/hugo-theme-bootstrap-skeleton.git blog
 $ cd blog
@@ -92,7 +96,13 @@ You can also replace the `master` with stable [releases](https://github.com/razo
 
 ## Deployment
 
+> The `baseURL` is very important, the CSS, JS and Sitemap require it to be set.
+
 **Please make sure you've change the `baseURL` on `config/production/config.yaml` before deploying your site.**
+
+**Please also remove the `-b {url}` from the following files if you're using this template.**
+
+- `.github/workflows/gh-pages.yml`
 
 This template supports GitHub Pages, Docker image, Netlify out-of-box. See also [Deployment](https://hbs.razonyang.com/v1/en/docs/deployment/) for getting more detail.
 
