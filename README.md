@@ -106,6 +106,14 @@ You can also replace the `master` with stable [releases](https://github.com/razo
 
 This template supports GitHub Pages, Docker image, Netlify out-of-box. See also [Deployment](https://hbs.razonyang.com/v1/en/docs/deployment/) for getting more detail.
 
+The following parameters also need to be tweaked.
+
+- Replace the `utterances.repo` with your own to get notified when someone comments.
+- Modify the `repo` to your own, or delete it if it's unused.
+- `contact.endpoint`.
+
+There are some hooks under the `layouts/partials/hooks` folder for showing how to use them, please feel free to delete them.
+
 ## Documentations
 
 - [English](https://hbs.razonyang.com/v1/en/)
