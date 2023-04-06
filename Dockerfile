@@ -1,7 +1,7 @@
 ###############
 # Build Stage #
 ###############
-FROM razonyang/hugo as builder
+FROM razonyang/hugo:exts as builder
 
 WORKDIR /src
 COPY . /src
@@ -9,7 +9,7 @@ COPY . /src
 ENV HUGO_ENV=production
 
 # Base URL
-ARG HUGO_BASEURL=/
+ARG HUGO_BASEURL=
 ENV HUGO_BASEURL=${HUGO_BASEURL}
 
 # Module Proxy
@@ -21,8 +21,7 @@ ARG NPM_CONFIG_REGISTRY=
 ENV NPM_CONFIG_REGISTRY=${NPM_CONFIG_REGISTRY}
 
 # Install dependencies
-RUN npm install
-RUN npm install -g @fullhuman/postcss-purgecss rtlcss
+RUN npm ci
 
 # Build site
 RUN hugo --minify --gc --enableGitInfo
@@ -33,6 +32,5 @@ RUN hugo --minify --gc --enableGitInfo
 ###############
 # Final Stage #
 ###############
-FROM nginx
-COPY --from=builder /src/public /app
-COPY deploy/nginx/default.conf /etc/nginx/conf.d/default.conf
+FROM razonyang/hugo:nginx
+COPY --from=builder /src/public /site
