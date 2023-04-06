@@ -38,7 +38,7 @@ palette: purple # Default palette. Optional. You'll need to clear the browser ca
 # fullWidth: true # Full width.
 # fixedHeader: false # Turn on/off fixed header.
 
-# dateFormat: Jan 2, 2006
+dateFormat: ":date_long"
 
 # Google Adsense
 googleAdsense: 

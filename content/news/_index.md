@@ -2,7 +2,7 @@
 title: News
 menu:
   main:
-    weight: 1
+    weight: 2
     params:
       icon: '<i class="fas fa-fw fa-newspaper"></i>'
 ---

@@ -1,6 +1,6 @@
 main:
-  - name: Documentations
+  - name: 文档
     identifier: documentations
-    url: https://hbs.razonyang.com/v1/en/docs/
+    url: https://hbs.razonyang.com/v1/zh-hans/docs/
     params:
       icon: '<i class="fas fa-fw fa-book"></i>'

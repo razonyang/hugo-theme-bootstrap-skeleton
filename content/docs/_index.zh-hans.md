@@ -1,5 +1,5 @@
 ---
-title: 文档
+title: 示例文档
 menu:
   main:
     weight: 1

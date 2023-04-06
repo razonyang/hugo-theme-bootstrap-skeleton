@@ -1,6 +1,9 @@
-main:
-  - name: 博客
+---
+title: Blog
+menu:
+  main:
     identifier: blog
     params:
       icon: '<i class="fas fa-fw fa-blog"></i>'
-      description: '博客菜单描述'
+      description: 'Blog Menu Description'
+---
