@@ -108,7 +108,7 @@ This template supports GitHub Pages, Docker image, Netlify out-of-box. See also 
 
 The following parameters also need to be tweaked.
 
-- Replace the `utterances.repo` with your own to get notified when someone comments.
+- Replace the `utterances.*` or `giscus.*` with your own to get notified when someone comments.
 - Modify the `repo` to your own, or delete it if it's unused.
 - `contact.endpoint`.
 
