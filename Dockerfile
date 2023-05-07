@@ -1,9 +1,8 @@
 ###############
 # Build Stage #
 ###############
-FROM razonyang/hugo:exts as builder
+FROM hugomods/hugo:exts as builder
 
-WORKDIR /src
 COPY . /src
 
 ENV HUGO_ENV=production
@@ -32,5 +31,5 @@ RUN hugo --minify --gc --enableGitInfo
 ###############
 # Final Stage #
 ###############
-FROM razonyang/hugo:nginx
+FROM hugomods/hugo:nginx
 COPY --from=builder /src/public /site
