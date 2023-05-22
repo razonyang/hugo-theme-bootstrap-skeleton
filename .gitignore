@@ -4,3 +4,4 @@ hugo_stats.json
 package.hugo.json
 .env
 node_modules
+themes/hugo-theme-bootstrap
