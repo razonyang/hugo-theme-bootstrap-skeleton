@@ -1,7 +1,7 @@
-name: Razon Yang
-# avatar: images/profile.png # Avatar image. Default to "images/profile.webp".
-bio: 'Gopher, PHPer, Full Stack Engineer.'
-company: Company # HTML markup are supported, such as: <a href="https://example.com" target="_blank" rel="noopener noreferrer">Company</a>.
+name: Syncriix
+avatar: images/profile.jpg # Avatar image. Default to "images/profile.webp".
+bio: 'Hacker & AI Enthusiast'
+company: Contact2Hire # HTML markup are supported, such as: <a href="https://example.com" target="_blank" rel="noopener noreferrer">Company</a>.
 location: Earth # HTML markup are supported, such as: <a href='https://www.openstreetmap.org/search?query=Earth'>Earth</a>.
 # about: https://razonyang.com # The external about page. The internal about page will be used if not set.
 params: {
@@ -9,9 +9,9 @@ params: {
 }
 # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
 social:
-  email: razonyang@gmail.com
-  github: razonyang/hugo-theme-bootstrap
-  twitter: razonyang
-  patreon: razonyang
-  paypal: razonyang
+  email: syncriix@pm.me
+  github: syncriix
+  twitter: syncriix
+  patreon: syncriix
+  paypal: syncriix
   rss: "" # Remove RSS

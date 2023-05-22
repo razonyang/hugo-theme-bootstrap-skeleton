@@ -1,7 +1,7 @@
 baseURL: /
-title: Hugo Bootstrap Skeleton
-theme: github.com/razonyang/hugo-theme-bootstrap
-copyright: 'Copyright © 2016-{year} Razon Yang. All Rights Reserved.'
+title: Evil 2 the Core
+theme: hugo-theme-bootstrap
+copyright: 'Copyright © 1995-{year} Syncriix. All Rights Reserved.'
 defaultContentLanguage: en
 # hasCJKLanguage: true # Uncomment it if your content contains Chinese/Japanese/Korean Languages.
 # defaultContentLanguageInSubdir: true

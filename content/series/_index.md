@@ -1,10 +1,8 @@
----
-title: Series
-menu:
-  main:
-    parent: blog
-    weight: 2
-    params:
-      icon: <i class="fas fa-fw fa-columns"></i>
-      description: List of series.
----
++++
+title = "Series"
+[menu.main]
+  parent = "blog"
+  weight = 2
+  [menu.main.params]
+    icon = '<i class="fas fa-fw fa-columns text-info"></i>'
++++

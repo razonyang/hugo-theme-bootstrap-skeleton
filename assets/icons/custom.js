@@ -1,10 +1,12 @@
-import { faBlog, faBook, faFile, faNewspaper } from '@fortawesome/free-solid-svg-icons';
+import {
+    faArchive, faBlog, faBook, faBug, faCar, faCloudUploadAlt, faCubes, faHandshake, faHeart, faImage, faImages, faLightbulb, faNewspaper, faSync, faTerminal
+} from '@fortawesome/free-solid-svg-icons';
 // import { faAddressBook } from '@fortawesome/free-regular-svg-icons';
-// import { faAmazon, faGoogle } from '@fortawesome/free-brands-svg-icons';
+import { faMarkdown } from '@fortawesome/free-brands-svg-icons';
 
 const icons = [
-    faBook, faBlog, faFile, faNewspaper,
+    faArchive, faBlog, faBook, faBug, faCar, faCloudUploadAlt, faCubes, faHandshake, faHeart, faImage, faImages, faLightbulb, faNewspaper, faSync, faTerminal,
     // faAddressBook,
-    // faAmazon, faGoogle,
+    faMarkdown,
 ];
 export default icons;

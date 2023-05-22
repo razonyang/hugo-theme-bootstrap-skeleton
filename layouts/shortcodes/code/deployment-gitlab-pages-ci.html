@@ -1,0 +1,24 @@
+image: registry.gitlab.com/pages/hugo/hugo_extended:latest
+
+variables:
+  HUGO_ENV: production
+
+default:
+  before_script:
+    - apk add --update --no-cache git go npm
+    - npm install
+
+test:
+  script:
+    - hugo --gc --minify
+  rules:
+    - if: $CI_COMMIT_REF_NAME != $CI_DEFAULT_BRANCH
+
+pages:
+  script:
+    - hugo --gc --minify
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
