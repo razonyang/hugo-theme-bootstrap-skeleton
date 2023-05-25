@@ -16375,6 +16375,7 @@ p {
   opacity: 0.5;
   filter: blur(20vmax);
   overflow: hidden;
+  z-index: -1;
 }
 
 .top-app-bar .logo {
@@ -16430,6 +16431,7 @@ p {
 canvas {
   display: block;
   position: absolute;
+  z-index: -1;
 }
 
 /* ********************************** TAPE *************************** */
