@@ -4,11 +4,15 @@ theme: hugo-theme-bootstrap
 copyright: 'Copyright © 1995-{year} Syncriix. All Rights Reserved.'
 defaultContentLanguage: en
 # hasCJKLanguage: true # Uncomment it if your content contains Chinese/Japanese/Korean Languages.
-# defaultContentLanguageInSubdir: true
-# disableLanguages:
-#  - fr
-#  - zh-cn
-#  - zh-tw
+defaultContentLanguageInSubdir: false
+disableLanguages:
+- fr
+- ja
+- js
+- zh-cn
+- zh-tw
+- zh-hans
+- zh-hant
 paginate: 10
 # paginatePath: page
 enableRobotsTXT: true
@@ -16,7 +20,7 @@ enableEmoji: true
 pygmentsUseClasses: true
 # googleAnalytics: UA-123-45
 # disqusShortname: yourdiscussshortname
-
+refLinksErrorLevel: WARNING 
 blackfriday:
   hrefTargetBlank: true
 

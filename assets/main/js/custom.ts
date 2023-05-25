@@ -100,115 +100,6 @@ function handleMouseLeave(e) {
 }
 
 
-
-// --------------------------------------------------------------------------- Title text
-
-
-class TextGlitch {
-	constructor( root ) {
-		this._root = root;
-		this._elClips = root.querySelectorAll( ".TextGlitch-clip" );
-		this._elWords = root.querySelectorAll( ".TextGlitch-word" );
-		this._frame = this._frame.bind( this );
-		this._unglitch = this._unglitch.bind( this );
-		this._frameId = null;
-		this._text = "";
-		this._textAlt = [];
-		Object.seal( this );
-
-		this.setTexts( [
-			"Evil to the Core",
-			"EVIL TO THE CORE",
-			"ΣVIᒪ ƬӨ ƬΉΣ ᑕӨЯΣ",
-			"3v!1 70 7h3 C0r3",
-		] );
-	
-	}
-
-	on() {
-		if ( !this._frameId ) {
-			this._frame();
-		}
-	}
-	off() {
-		clearTimeout( this._frameId );
-		this._frameId = null;
-		this._unglitch();
-	}
-	setTexts( [ text, ...alt ] ) {
-		this._text = text;
-		this._textAlt = alt;
-	}
-
-	// private:
-	// .....................................................................
-	_frame() {
-		this._glitch();
-		setTimeout( this._unglitch, 50 + Math.random() * 200 );
-		this._frameId = setTimeout( this._frame, 250 + Math.random() * 750 );
-	}
-	_glitch() {
-		this._addClipCSS();
-		this._textContent( this._randText() );
-		this._root.classList.add( "TextGlitch-blended" );
-	}
-	_unglitch() {
-		this._removeClipCSS();
-		this._textContent( this._text );
-		this._root.classList.remove( "TextGlitch-blended" );
-	}
-	_textContent( txt ) {
-		this._elWords.forEach( el => el.textContent = txt );
-	}
-
-	// CSS clip-path, to cut the letters like an overflow:hidden
-	// .....................................................................
-	_addClipCSS() {
-		const clips = this._elClips,
-			clip1 = this._randDouble( .1 ),
-			clip2 = this._randDouble( .1 );
-
-		clips[ 0 ].style.transform = `translate(${ this._randDouble( .3 ) }em, .02em)`;
-		clips[ 2 ].style.transform = `translate(${ this._randDouble( .3 ) }em, -.02em)`;
-		clips[ 0 ].style.clipPath = `inset( 0 0 ${ .6 + clip1 }em 0 )`;
-		clips[ 1 ].style.clipPath = `inset( ${ .4 - clip1 }em 0 ${ .3 - clip2 }em 0 )`;
-		clips[ 2 ].style.clipPath = `inset( ${ .7 + clip2 }em 0 0 0 )`;
-	}
-	_removeClipCSS() {
-		this._elClips.forEach( el => {
-			el.style.clipPath =
-			el.style.transform = "";
-		} );
-	}
-
-	// Switch some chars randomly
-	// .....................................................................
-	_randText() {
-		const txt = Array.from( this._text );
-
-		for ( let i = 0; i < 12; ++i ) {
-			const ind = this._randInt( this._text.length );
-
-			txt[ ind ] = this._textAlt[ this._randInt( this._textAlt.length ) ][ ind ];
-		}
-		return txt.join( "" );
-	}
-
-	// rand utils
-	// .....................................................................
-	_randDouble( d ) {
-		return Math.random() * d - d / 2;
-	}
-	_randInt( n ) {
-		return Math.random() * n | 0;
-	}
-}
-
-const elTitle = document.querySelector( "#title" );
-const glitch = new TextGlitch( elTitle );
-
-glitch.on();
-
 // -#############################################################################
 
 /* -- Glow effect -- */
@@ -257,3 +148,142 @@ screen.onmouseenter = event => {
     iteration += 1 / 3;
   }, 30);
 }
+
+
+// -------------------------------------------------------------- Animated AI core
+
+
+gsap.config({trialWarn: false});
+let select = s => document.querySelector(s),
+		toArray = s => gsap.utils.toArray(s),
+		mainSVG = select('#mainSVG'),
+		allEll = toArray('.ell'),
+		colorArr = ['#359EEE', '#FFC43D','#EF476F','#03CEA4']
+
+let colorInterp = gsap.utils.interpolate(colorArr);
+
+gsap.set(mainSVG, {
+	visibility: 'visible'
+})
+
+function animate (el, count) {
+	let tl = gsap.timeline({
+	defaults: {
+		ease: 'sine.inOut'
+	},
+		repeat: -1
+});
+	gsap.set(el, {
+		opacity:1- count/(allEll.length),
+		stroke: colorInterp(count/(allEll.length))
+	})
+
+	tl.to(el, {
+	attr: {
+		ry: `-=${count*2.3}`,
+		rx: `+=${count*1.4}`
+	},
+	ease: 'sine.in'
+})
+.to(el, {
+	attr: {
+		ry: `+=${count*2.3}`,
+		rx: `-=${count*1.4}`
+	},
+	ease: 'sine'
+})
+.to(el, {
+	duration: 1,
+	rotation: -180,
+	transformOrigin: '50% 50%'
+}, 0).timeScale(0.5)
+}
+allEll.forEach((c, i) => {
+	gsap.delayedCall(i/(allEll.length-1), animate, [c, i+1])
+})
+gsap.to('#aiGrad', {
+	duration: 4,
+	delay: 0.75,
+	attr: {
+		x1: '-=300',
+		x2: '-=300'
+	},
+	scale: 1.2,
+	transformOrigin: '50% 50%',
+	repeat: -1,
+	ease: 'none'
+})
+ gsap.to('#ai', {
+	duration: 1,
+	scale: 1.1,
+	transformOrigin: '50% 50%',
+	repeat: -1,
+	yoyo: true,
+	ease: 'sine.inOut'
+}) 
+
+
+
+
+ // ################################################ Marix BG
+
+ const canvas = document.getElementById("matrix-canvas");
+ const ctx = canvas.getContext("2d");
+
+ // Set font properties
+ const fontSize = 13;
+ const fontFamily = "Courier New";
+ const charSet = "01";
+ // Set initial values for character raindrops
+ let drops = [];
+
+ // Function to update canvas size and raindrop positions
+ function updateCanvasSize() {
+   // Set canvas size to match window size
+   canvas.width = window.innerWidth;
+   canvas.height = document.documentElement.scrollHeight + 50;
+
+   // Recalculate number of raindrop columns and reset raindrop positions
+   let columnCount = Math.ceil(canvas.width / fontSize);
+   drops = [];
+   for (let i = 0; i < columnCount; i++) {
+	 drops[i] = -Math.round(Math.random() * canvas.height / fontSize) * fontSize;
+   }
+ }
+
+ // Call updateCanvasSize on initial page load
+ updateCanvasSize();
+
+ // Main animation loop
+ function draw() {
+   // Set canvas background color and fill
+   ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+   ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+   // Set font properties for raindrop characters
+   ctx.font = fontSize + "px " + fontFamily;
+   ctx.fillStyle = "#FF0000";
+
+   // Draw raindrop characters
+   for (let i = 0; i < drops.length; i++) {
+	 const charIndex = Math.floor(Math.random() * charSet.length);
+	 const char = charSet[charIndex];
+	 const x = i * fontSize;
+	 const y = drops[i];
+	 ctx.fillText(char, x, y);
+
+	 // Move raindrop down
+	 drops[i] += fontSize;
+
+	 // Reset raindrop position if it reaches the bottom of the screen
+	 if (drops[i] > canvas.height) {
+	   drops[i] = -fontSize;
+	 }
+   }
+ }
+
+ // Start animation loop
+ setInterval(draw, 50);
+
+ // Call updateCanvasSize when window is resized
+ window.addEventListener("resize", updateCanvasSize);

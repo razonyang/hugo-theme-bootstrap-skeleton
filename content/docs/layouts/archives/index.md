@@ -15,10 +15,6 @@ series = [
   "Docs"
 ]
 images = []
-aliases = [
-  "/en/posts/archives",
-  "/en/docs/archives"
-]
 authors = ["RazonYang"]
 # [menu.footer]
 #   parent = "docs"
@@ -46,10 +42,4 @@ $ tree content/archives
 
 The content of those files just contain a `title` parameter.
 
-## Site Parameters
 
-| Name | Type | Default | Description
-|---|:-:|:-:|---
-| `archive` | Object | - | Archive.
-| `archive.dateFormat` | Integer | `Jan 2` | Archive date format.
-| `archive.basePath` | String | `/archives` |
