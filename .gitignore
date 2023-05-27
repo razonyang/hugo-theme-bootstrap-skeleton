@@ -5,3 +5,4 @@ package.hugo.json
 .env
 node_modules
 themes/hugo-theme-bootstrap
+resources/_gen
