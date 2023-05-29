@@ -6,3 +6,4 @@ package.hugo.json
 node_modules
 themes/hugo-theme-bootstrap
 resources/_gen
+*.psd

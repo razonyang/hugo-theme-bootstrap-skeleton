@@ -1,0 +1,15 @@
+#+title: Todo
+* Fixme
+** About & Contact Me Links not clickable
+** Fix Performance
+
+* Performance
+** Unused CSS removal
+unused-css.com
+** Guetzli all Images
+**
+
+* TODO
+** Design Cards
+** Mobile View
+*** Start by playing with breakpoints
