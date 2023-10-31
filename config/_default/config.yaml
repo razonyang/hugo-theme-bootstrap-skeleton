@@ -14,7 +14,6 @@ paginate: 10
 enableRobotsTXT: true
 enableEmoji: true
 pygmentsUseClasses: true
-# disqusShortname: yourdiscussshortname
 
 blackfriday:
   hrefTargetBlank: true
@@ -34,3 +33,7 @@ permalinks:
 
 # module:
   # proxy: https://goproxy.cn
+
+# services:
+#   disqus:
+#     shortname: your-disqus-shortname
