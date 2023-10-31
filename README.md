@@ -98,7 +98,7 @@ You can also replace the `master` with stable [releases](https://github.com/razo
 
 > The `baseURL` is very important, the CSS, JS and Sitemap require it to be set.
 
-**Please make sure you've change the `baseURL` on `config/production/config.yaml` before deploying your site.**
+**Please make sure you've change the `baseURL` on `config/_default/config.yaml` before deploying your site.**
 
 **Please also remove the `-b {url}` from the following files if you're using this template.**
 
