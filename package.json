@@ -3,10 +3,6 @@
     "dependencies": {
       "@algolia/autocomplete-js": "github.com/razonyang/hugo-theme-bootstrap",
       "@algolia/autocomplete-theme-classic": "github.com/razonyang/hugo-theme-bootstrap",
-      "@babel/cli": "github.com/razonyang/hugo-theme-bootstrap",
-      "@babel/core": "github.com/razonyang/hugo-theme-bootstrap",
-      "@babel/preset-env": "github.com/razonyang/hugo-theme-bootstrap",
-      "@babel/preset-typescript": "github.com/razonyang/hugo-theme-bootstrap",
       "@docsearch/js": "github.com/razonyang/hugo-theme-bootstrap",
       "@fortawesome/fontawesome-svg-core": "github.com/razonyang/hugo-theme-bootstrap",
       "@fortawesome/free-brands-svg-icons": "github.com/razonyang/hugo-theme-bootstrap",
@@ -28,25 +24,17 @@
       "postcss-cli": "github.com/razonyang/hugo-theme-bootstrap",
       "rtlcss": "github.com/razonyang/hugo-theme-bootstrap",
       "viewerjs": "github.com/razonyang/hugo-theme-bootstrap",
-      "webpack": "github.com/razonyang/hugo-theme-bootstrap",
       "workbox-cacheable-response": "github.com/razonyang/hugo-theme-bootstrap",
       "workbox-expiration": "github.com/razonyang/hugo-theme-bootstrap",
       "workbox-precaching": "github.com/razonyang/hugo-theme-bootstrap",
       "workbox-routing": "github.com/razonyang/hugo-theme-bootstrap",
       "workbox-strategies": "github.com/razonyang/hugo-theme-bootstrap"
     },
-    "devDependencies": {
-      "copy-webpack-plugin": "github.com/razonyang/hugo-theme-bootstrap",
-      "webpack-cli": "github.com/razonyang/hugo-theme-bootstrap"
-    }
+    "devDependencies": {}
   },
   "dependencies": {
     "@algolia/autocomplete-js": "^1.7.3",
     "@algolia/autocomplete-theme-classic": "^1.7.3",
-    "@babel/cli": "^7.17.3",
-    "@babel/core": "^7.17.4",
-    "@babel/preset-env": "^7.16.11",
-    "@babel/preset-typescript": "^7.16.7",
     "@docsearch/js": "^3.1.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
@@ -56,29 +44,25 @@
     "@popperjs/core": "^2.11.2",
     "algoliasearch": "^4.14.2",
     "autoprefixer": "^10.4.2",
-    "bootstrap": "^5.3.0-alpha3",
+    "bootstrap": "^5.3.2",
     "date-fns": "^2.29.3",
     "fuse.js": "^6.5.3",
-    "katex": "^0.15.2",
+    "katex": "^0.16.4",
     "mark.js": "^8.11.1",
     "masonry-layout": "^4.2.2",
-    "mermaid": "^8.14.0",
+    "mermaid": "^10.0.0",
     "mustache": "^4.2.0",
     "onchange": "^7.1.0",
     "postcss-cli": "^9.1.0",
     "rtlcss": "^3.5.0",
     "viewerjs": "^1.10.4",
-    "webpack": "^5.69.1",
     "workbox-cacheable-response": "^6.4.2",
     "workbox-expiration": "^6.4.2",
     "workbox-precaching": "^6.4.2",
     "workbox-routing": "^6.4.2",
     "workbox-strategies": "^6.4.2"
   },
-  "devDependencies": {
-    "copy-webpack-plugin": "^10.2.4",
-    "webpack-cli": "^4.9.1"
-  },
+  "devDependencies": {},
   "name": "hugo-theme-bootstrap-skeleton",
   "version": "0.1.0"
 }
