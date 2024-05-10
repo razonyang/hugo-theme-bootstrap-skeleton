@@ -13,7 +13,7 @@ The starter template for [Hugo Bootstrap Theme](https://github.com/razonyang/hug
 
 ## Usage
 
-Please make sure you have install the [build tools](https://hbs.razonyang.com/v1/en/docs/getting-started/prerequisites/#build-tools) prior to using this template.
+Please make sure you have install the [build tools](https://hbs.razonyang.com/v1/en/docs/getting-started/prerequisites/#build-tools) prior to using this template if you're not using Docker to preview site.
 
 **1. Clone this repository**
 
@@ -66,12 +66,30 @@ module:
   proxy: https://goproxy.cn
 ```
 
-## Server
+## Local Development
+
+### Develop via Docker Compose
+
+**1.Install Dependencies**
+
+```sh
+$ docker compose run server npm ci
+```
+
+> This step is one-time task per machine, unless you deleted the __node_modules__ folder or introduce new dependencies.
+
+**2. Start server**
+
+```sh
+$ docker compose up
+```
+
+### Develop with Native Tools
 
 **1. Install dependencies**
 
 ```shell
-$ npm i
+$ npm ci
 ```
 
 Generally, this step only needs to be performed once for each local project.
