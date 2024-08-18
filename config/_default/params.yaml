@@ -100,7 +100,7 @@ sidebar:
 
 codeBlock:
   # maxLines: 8
-  lineNos: false # true/false represents that show/hide the line numbers by default.
+  lineNos: true # true/false represents that show/hide the line numbers by default.
 
 post:
   # excerpt: description

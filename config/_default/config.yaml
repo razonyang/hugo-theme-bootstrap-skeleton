@@ -32,8 +32,14 @@ permalinks:
   blog: /blog/:year/:month/:title/
 
 # module:
-  # proxy: https://goproxy.cn
+#   proxy: https://goproxy.cn
 
 # services:
 #   disqus:
 #     shortname: your-disqus-shortname
+
+markup:
+  highlight:
+    lineNos: true
+    noClasses: false
+    lineNumbersInTable: false
