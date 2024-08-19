@@ -260,9 +260,10 @@ topAppBar:
     patreon: razonyang
     paypal: razonyang
 
-#docs:
-  # nav:
-    # expand: true # Expand docs navigations.
+docs:
+  nav:
+    expand: false # Expand docs navigation.
+    reduceFontSize: true # Reduce font size of children navigation.
 
 #feeds:
   # content: true
