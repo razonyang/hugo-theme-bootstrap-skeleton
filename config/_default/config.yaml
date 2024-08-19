@@ -41,7 +41,7 @@ module:
 
 markup:
   highlight:
-    guesssyntax: true
+    guessSyntax: true
     lineNos: true
     noClasses: false
     lineNumbersInTable: false
