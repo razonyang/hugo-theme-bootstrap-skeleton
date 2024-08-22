@@ -2,7 +2,7 @@
   // ns-params:@params
   var params_default = { baseURL: "https://projects.razonyang.com/hugo-theme-bootstrap-skeleton/" };
 
-  // ns-hugo:/tmp/hugo_cache_runner/modules/filecache/modules/pkg/mod/github.com/razonyang/hugo-theme-bootstrap@v1.6.4/assets/js/local-storage/index.ts
+  // ns-hugo:/tmp/hugo_cache_runner/modules/filecache/modules/pkg/mod/github.com/razonyang/hugo-theme-bootstrap@v1.6.6/assets/js/local-storage/index.ts
   var PathLocalStorage = class {
     constructor(baseURL) {
       this.baseURL = baseURL;
