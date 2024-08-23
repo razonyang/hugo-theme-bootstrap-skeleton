@@ -1,3 +1,5 @@
+# sass_transpiler: 'dartsass' # Uncomment to use Dart Sass, you need to install Dart Sass first.
+
 mainSections:
   - blog
   - posts
