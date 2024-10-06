@@ -14,7 +14,8 @@ disableLanguages:
 - zh-tw
 - zh-hans
 - zh-hant
-paginate: 10
+pagination:
+  pagerSize: 10
 # paginatePath: page
 enableRobotsTXT: true
 enableEmoji: true
@@ -22,6 +23,7 @@ pygmentsUseClasses: true
 # googleAnalytics: UA-123-45
 # disqusShortname: yourdiscussshortname
 refLinksErrorLevel: WARNING 
+
 blackfriday:
   hrefTargetBlank: true
 
@@ -42,5 +44,18 @@ permalinks:
   news: /news/:year/:month/:title/
   blog: /blog/:year/:month/:title/
 
-# module:
-  # proxy: https://goproxy.cn
+module:
+  imports:
+    - path: github.com/razonyang/hugo-theme-bootstrap
+#   proxy: https://goproxy.cn
+
+# services:
+#   disqus:
+#     shortname: your-disqus-shortname
+
+markup:
+  highlight:
+    guessSyntax: true
+    lineNos: true
+    noClasses: false
+    lineNumbersInTable: false

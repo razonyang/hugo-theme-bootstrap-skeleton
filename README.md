@@ -66,12 +66,30 @@ module:
   proxy: https://goproxy.cn
 ```
 
-## Server
+## Local Development
+
+### Develop via Docker Compose
+
+**1.Install Dependencies**
+
+```sh
+$ docker compose run server npm ci
+```
+
+> This step is one-time task per machine, unless you deleted the __node_modules__ folder or introduce new dependencies.
+
+**2. Start server**
+
+```sh
+$ docker compose up
+```
+
+### Develop with Native Tools
 
 **1. Install dependencies**
 
 ```shell
-$ npm i
+$ npm ci
 ```
 
 Generally, this step only needs to be performed once for each local project.
@@ -98,7 +116,7 @@ You can also replace the `master` with stable [releases](https://github.com/razo
 
 > The `baseURL` is very important, the CSS, JS and Sitemap require it to be set.
 
-**Please make sure you've change the `baseURL` on `config/production/config.yaml` before deploying your site.**
+**Please make sure you've change the `baseURL` on `config/_default/config.yaml` before deploying your site.**
 
 **Please also remove the `-b {url}` from the following files if you're using this template.**
 

@@ -1,0 +1,11 @@
+name: my-blog
+
+services:
+  server:
+    image: hugomods/hugo:exts
+    command: hugo server --bind 0.0.0.0
+    volumes:
+      - $PWD:/src
+      - $HOME/.cache/docker_compose_hugo_cache:/tmp/hugo_cache
+    ports:
+      - 1313:1313

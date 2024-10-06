@@ -1,3 +1,5 @@
+# sass_transpiler: 'dartsass' # Uncomment to use Dart Sass, you need to install Dart Sass first.
+
 mainSections:
   - blog
   - posts
@@ -86,7 +88,7 @@ viewer: true # Image Viewer
 # rss: home # link the RSS button to homepage all the times.
 
 sidebar:
-  # fixed: true
+  fixed: true
   # archives: true # Enable archives widget
   # taxonomiesToggle: false # Disable taxonomy toggle
   # categories: true # Enable categories widget
@@ -100,7 +102,7 @@ sidebar:
 
 codeBlock:
   # maxLines: 8
-  lineNos: false # true/false represents that show/hide the line numbers by default.
+  lineNos: true # true/false represents that show/hide the line numbers by default.
 
 post:
   # excerpt: description
@@ -260,9 +262,65 @@ topAppBar:
     patreon: syncriix
     paypal: syncriix
 
-#docs:
-  # nav:
-    # expand: true # Expand docs navigations.
+docs:
+  nav:
+    expand: false # Expand docs navigation.
+    reduceFontSize: true # Reduce font size of children navigation.
 
 #feeds:
   # content: true
+
+social:
+  # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
+  email: user@domain.tld
+  facebook: yourfacebookusername
+  github: razonyang/hugo-theme-bootstrap
+  gitlab: yourgitlabusername
+  linkedin: yourlinkedinusername
+  xing: yourxingusername
+  stackoverflow: yourstackoverflowuserid
+  twitter: yourtwitterusername
+  weibo: yourweibousername
+  zhihu: yourzhihuusername
+  instagram: yourinstagramusername
+  quora: yourquorausername
+  tumblr: yourtumblrusername
+  reddit: yourredditusername
+  telegram: yourtelegramusername
+  qq: yourqqnumber
+  dockerhub: yourdockerhubusername
+  bitbucket: yourbitbucketworkspaceid
+  kaggle: yourkaggleusername
+  medium: yourmediumusername # Medium username or custom domain(e.g. https://custom.domain.tld).
+  lastfm: yourlastfmusername
+  bilibili: yourbilibiliuserid
+  youtube: youryoutubechannelid
+  discord: yourdiscordinvitecode
+  discourse: https://yourforum.tld
+  facebookgroup: yourfacebookgroupname
+  tiktok: yourtiktokusername
+  pinterest: yourpinterestusername
+  mastodon: yourmastodonusername
+  liberapay: yourliberapayaccount
+  paypal: razonyang
+  patreon: razonyang
+  tipeee: yourtipeeeaccount-fr
+
+author:
+  name: Razon Yang
+  # avatar: images/profile.png # Avatar image. Default to "images/profile.webp".
+  bio: 'Gopher, PHPer, Full Stack Engineer.'
+  company: Company # HTML markup are supported, such as: <a href="https://example.com" target="_blank" rel="noopener noreferrer">Company</a>.
+  location: Earth # HTML markup are supported, such as: <a href='https://www.openstreetmap.org/search?query=Earth'>Earth</a>.
+  # about: https://razonyang.com # The external about page. The internal about page will be used if not set.
+  params: {
+    # layout: compact
+  }
+  # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
+  social:
+    email: razonyang@gmail.com
+    github: razonyang/hugo-theme-bootstrap
+    twitter: razonyang
+    patreon: razonyang
+    paypal: razonyang
+    rss: "" # Remove RSS
