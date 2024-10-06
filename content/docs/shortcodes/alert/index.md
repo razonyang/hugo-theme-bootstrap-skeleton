@@ -18,7 +18,7 @@ images = [
 aliases = [
   "/en/posts/shortcodes/alert"
 ]
-authors = ["RazonYang"]
+authors = ["syncriix"]
 +++
 
 This article shows how to use the `alert` shortcode.

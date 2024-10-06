@@ -33,6 +33,6 @@ Create `.gitlab-ci.yml` at the root of your site with the following contents:
 The example above will only deploy the default branch to GitLab Pages and run a test on the rest of the branches.
 
 > See also:
-> * [Starter Template GitLab Pages Configuration](https://github.com/razonyang/hugo-theme-bootstrap-skeleton/blob/main/.gitlab-ci.yml)。
+> * [Starter Template GitLab Pages Configuration](https://github.com/syncriix/hugo-theme-bootstrap-skeleton/blob/main/.gitlab-ci.yml)。
 > * [Upstream GitLab Hugo Example](https://gitlab.com/pages/hugo)
 > * [GitLab CI/CD Variables Documentation](https://docs.gitlab.com/ee/ci/variables/)

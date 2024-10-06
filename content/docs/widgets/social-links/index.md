@@ -17,7 +17,7 @@ images = []
 aliases = [
   "/en/posts/widgets/social-links"
 ]
-authors = ["RazonYang"]
+authors = ["syncriix"]
 +++
 
 The `social` parameter is a set of key value pairs of social links that mapping from platform to their user identifier.
@@ -83,7 +83,7 @@ github = "githubusername"
 | `dockerhub` | Docker Hub Username |
 | `bitbucket` | Bitbucket Workspace ID |
 | `kaggle` | Kaggle Username |
-| `medium` | Medium Username or custom domain(e.g. https://razonyang.com) |
+| `medium` | Medium Username or custom domain(e.g. https://e2tc.netlify.app) |
 | `lastfm` | Last.fm Username |
 | `bibibili` | BiliBili User ID |
 | `youtube` | Youtube Channel ID |

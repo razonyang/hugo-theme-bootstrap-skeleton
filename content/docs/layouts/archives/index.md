@@ -15,7 +15,7 @@ series = [
   "Docs"
 ]
 images = []
-authors = ["RazonYang"]
+authors = ["syncriix"]
 # [menu.footer]
 #   parent = "docs"
 #   weight = 7

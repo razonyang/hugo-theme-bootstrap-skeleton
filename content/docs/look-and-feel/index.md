@@ -25,7 +25,7 @@ navWeight = 960
 aliases = [
   "/en/posts/look-and-feel"
 ]
-authors = ["RazonYang"]
+authors = ["syncriix"]
 [menu.footer]
   parent = "docs"
   weight = 3

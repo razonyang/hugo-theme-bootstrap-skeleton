@@ -18,7 +18,7 @@ series = [
 ]
 images = []
 navWeight = 90
-authors = ["RazonYang"]
+authors = ["syncriix"]
 +++
 
 This article refers to the modern, up-to-date installation method of installing the theme locally as Hugo module.
@@ -44,7 +44,7 @@ module:
 
 ## Install a new site from scratch
 
-Please use the [starter template](https://github.com/razonyang/hugo-theme-bootstrap-skeleton) for your new site.
+Please use the [starter template](https://github.com/syncriix/hugo-theme-bootstrap-skeleton) for your new site.
 
 ## Install on an existing site
 
@@ -61,7 +61,7 @@ $ hugo mod init github.com/me/my-blog
 $ hugo mod get github.com/razonyang/hugo-theme-bootstrap@[version]
 ```
 
-The `[version]` can be one of [Releases](https://github.com/razonyang/hugo-theme-bootstrap/releases), branches or even commits.
+The `[version]` can be one of [Releases](https://github.com/syncriix/hugo-theme-bootstrap/releases), branches or even commits.
 
 > Replace `[version]` with `master` for getting latest changes.
 
@@ -70,7 +70,7 @@ The `[version]` can be one of [Releases](https://github.com/razonyang/hugo-theme
 - Clone the `hugo-theme-bootstrap-skeleton` repo into a temporary directory:
 
 ```bash
-$ git clone https://github.com/razonyang/hugo-theme-bootstrap-skeleton /tmp/hbs-skeleton
+$ git clone https://github.com/syncriix/hugo-theme-bootstrap-skeleton /tmp/hbs-skeleton
 ```
 
 - Copy example site configuration and content into your site:

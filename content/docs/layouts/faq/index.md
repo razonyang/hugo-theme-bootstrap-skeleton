@@ -18,7 +18,7 @@ aliases = [
   "/en/posts/faq",
   "/en/docs/faq"
 ]
-authors = ["RazonYang"]
+authors = ["syncriix"]
 +++
 
 The [FAQ]({{< ref "/faq" >}}) page is a collection of frequently asked questions.

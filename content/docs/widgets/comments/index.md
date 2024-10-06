@@ -22,7 +22,7 @@ images = []
 aliases = [
   "/en/posts/widgets/comments"
 ]
-authors = ["RazonYang"]
+authors = ["syncriix"]
 [menu.footer]
   parent = "features"
   weight = 7
@@ -193,7 +193,7 @@ comments:
   moderation: false
 
   # Name of the site. Used in notification emails.
-  name: "hbs.razonyang.com"
+  name: "hbs.e2tc.netlify.app"
 
   # Notification settings. When enabled, users can choose to receive notifications
   # via email when someone adds a reply or a new comment. This requires an account

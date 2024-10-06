@@ -16,7 +16,7 @@ series = [
 ]
 images = []
 navWeight = 970
-authors = ["RazonYang"]
+authors = ["syncriix"]
 +++
 
 Page parameters are located in page's [Front Matter](https://gohugo.io/content-management/front-matter/).

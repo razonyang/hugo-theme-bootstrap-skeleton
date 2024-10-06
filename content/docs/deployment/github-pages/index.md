@@ -29,4 +29,4 @@ Create `.github/workflows/gh-pages.yml` in the site root.
 {{% code/deployment-github-pages-workflow %}}
 ```
 
-> See also [Starter Template GitHub Pages Workflow](https://github.com/razonyang/hugo-theme-bootstrap-skeleton/blob/main/.github/workflows/gh-pages.yml)。
+> See also [Starter Template GitHub Pages Workflow](https://github.com/syncriix/hugo-theme-bootstrap-skeleton/blob/main/.github/workflows/gh-pages.yml)。

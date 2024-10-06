@@ -21,7 +21,7 @@ aliases = [
   "/en/docs/contact-form",
   "/en/docs/layouts/contact-form"
 ]
-authors = ["RazonYang"]
+authors = ["syncriix"]
 # [menu.footer]
 #   parent = "features"
 #   weight = 6

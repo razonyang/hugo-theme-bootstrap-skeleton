@@ -17,7 +17,7 @@ series = [
   "Docs"
 ]
 images = []
-authors = ["Andreas Deininger", "RazonYang"]
+authors = ["Andreas Deininger", "syncriix"]
 +++
 
 In this article, we'll explore the `docs` layout, which can be used to write project documentation, personal notes, and more.
@@ -75,7 +75,7 @@ navWeight = 1000
 Sometimes we need to link the article to an external site. At this time, `redirect` can be used, and then it will redirect to the specified external link automatically.
 
 {{< code-toggle >}}
-redirect = "https://github.com/razonyang/hugo-theme-bootstrap-skeleton"
+redirect = "https://github.com/syncriix/hugo-theme-bootstrap-skeleton"
 {{< /code-toggle >}}
 
 ## Sidebar

@@ -16,7 +16,7 @@ tags = ["Features"]
 series = ["Docs"]
 images = []
 navWeight = 100
-authors = ["RazonYang"]
+authors = ["syncriix"]
 +++
 
 Hugo Bootstrap Theme(HBS) is a fast, responsive, multipurpose and feature-rich Hugo theme. It is used for blog and document sites typically.
@@ -34,7 +34,7 @@ Hugo Bootstrap Theme(HBS) is a fast, responsive, multipurpose and feature-rich H
 - [Hugo Pipes](https://gohugo.io/hugo-pipes/): used to generate CSS and JS assets.
 - PurgeCSS: remove unused CSS.
 - [Flexible and Configurable]({{< ref "/docs/configuration" >}}).
-- Fast and Good User Experience: [Google PageSpeed Insights](https://pagespeed.web.dev/report?url=https://hbs.razonyang.com/en/)'s score is over 95.
+- Fast and Good User Experience: [Google PageSpeed Insights](https://pagespeed.web.dev/report?url=https://e2tc.netlify.app//en/)'s score is over 95.
 - RTL support:
 - Built on top of [Bootstrap 5](https://getbootstrap.com/).
 - FontAwesome icons.

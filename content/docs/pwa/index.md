@@ -22,7 +22,7 @@ images = []
 aliases = [
   "/en/posts/pwa"
 ]
-authors = ["RazonYang"]
+authors = ["syncriix"]
 navWeight = 400
 videos = [
   "https://www.bilibili.com/video/BV1yg411Z77A"

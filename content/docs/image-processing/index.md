@@ -41,7 +41,7 @@ navWeight = 800
 aliases = [
   "/en/posts/image-processing"
 ]
-authors = ["RazonYang"]
+authors = ["syncriix"]
 [menu.footer]
   parent = "features"
   weight = 2

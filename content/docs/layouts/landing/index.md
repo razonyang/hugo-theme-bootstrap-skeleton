@@ -15,7 +15,7 @@ categories = []
 tags = ["Landing Page"]
 series = ["Docs"]
 images = []
-authors = ["RazonYang"]
+authors = ["syncriix"]
 +++
 
 In this article, we'll talk about the landing page layout, you may be interested in it if you're going to customizing the pages in Markdown way.

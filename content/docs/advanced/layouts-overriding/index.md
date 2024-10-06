@@ -27,7 +27,7 @@ Just create a layout or partial file with the same filename that you want to ove
 
 > This is how our [Hooks]({{< ref "docs/advanced/hooks" >}}) work.
 
-For example, we can override the homepage parital [`layouts/index.html`](https://github.com/razonyang/hugo-theme-bootstrap/blob/master/layouts/index.html) via creating our own under site root.
+For example, we can override the homepage parital [`layouts/index.html`](https://github.com/syncriix/hugo-theme-bootstrap-skeleton/blob/master/layouts/index.html) via creating our own under site root.
 
 ```bash
 $ echo "MY CUSTOM HOMEPAGE" > layouts/index.html

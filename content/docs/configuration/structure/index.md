@@ -17,7 +17,7 @@ series = [
 ]
 images = []
 navWeight = 1000
-authors = ["RazonYang"]
+authors = ["syncriix"]
 +++
 
 As the example site shown, we use [Configuration Directory](https://gohugo.io/getting-started/configuration/#configuration-directory) to maintain easier organization and environment specific settings, it is especially useful on multilingual sites.

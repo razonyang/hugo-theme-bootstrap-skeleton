@@ -29,4 +29,4 @@ Create a `netlify.toml` in the site root：
 {{% code/deployment-netlify-config %}}
 ```
 
-> See also [Starter Template Netlify Configuration](https://github.com/razonyang/hugo-theme-bootstrap-skeleton/blob/main/netlify.toml).
+> See also [Starter Template Netlify Configuration](https://github.com/syncriix/hugo-theme-bootstrap-skeleton/blob/main/netlify.toml).

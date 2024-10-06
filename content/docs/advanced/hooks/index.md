@@ -18,7 +18,7 @@ aliases = [
   "/en/posts/hooks",
   "/en/docs/hooks"
 ]
-authors = ["RazonYang"]
+authors = ["syncriix"]
 [menu.footer]
   parent = "docs"
   weight = 6

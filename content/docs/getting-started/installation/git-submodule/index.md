@@ -18,7 +18,7 @@ series = [
 ]
 images = []
 navWeight = 80
-authors = ["RazonYang"]
+authors = ["syncriix"]
 +++
 
 This article refers to the traditional installation method of cloning the theme locally as Git submodule.

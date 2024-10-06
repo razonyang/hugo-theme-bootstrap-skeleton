@@ -144,7 +144,7 @@ creativeCommons:
   # sa: true # Adaptations must be shared under the same terms.
 
 # utterances:
-  # repo: razonyang/hugo-theme-bootstrap-skeleton # Replace with your repository.
+  # repo: syncriix/hugo-theme-bootstrap-skeleton # Replace with your repository.
   #issueTerm: pathname # pathname, url, title, og:title
   # label: comment
   # By default, light and dark mode correspond to github-light and github-dark, respectively.
@@ -170,7 +170,7 @@ creativeCommons:
 
 # See https://giscus.app
 giscus:
-  repo: "razonyang/hugo-theme-bootstrap-skeleton" # required.
+  repo: "syncriix/hugo-theme-bootstrap-skeleton" # required.
   repoId: "R_kgDOHJi95g" # required.
   category: "General" # required.
   categoryId: "DIC_kwDOHJi95s4CTy6q" # required.
@@ -248,17 +248,17 @@ contact:
     # siteKey: ""
 
 repo:
-  url: https://github.com/razonyang/hugo-theme-bootstrap-skeleton
+  url: https://github.com/syncriix/hugo-theme-bootstrap-skeleton
   branch: main
   # subPath: exampleSite
   # dateFormat: 02/01/2006, 15:04:05 PM
 
 topAppBar:
-  # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
+  # See https://e2tc.netlify.app//v1/en/docs/widgets/social-links/.
   social:
-    github: razonyang/hugo-theme-bootstrap
-    patreon: razonyang
-    paypal: razonyang
+    github: syncriix/hugo-theme-bootstrap-skeleton
+    patreon: syncriix
+    paypal: syncriix
 
 #docs:
   # nav:

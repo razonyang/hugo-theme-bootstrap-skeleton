@@ -14,7 +14,7 @@ categories = ["Widget"]
 tags = ["Repository", "GitHub"]
 series = ["Docs"]
 images = []
-authors = ["RazonYang"]
+authors = ["syncriix"]
 +++
 
 The repository widget shows the commit information about current page, it's useful for users to view or edit the source code.

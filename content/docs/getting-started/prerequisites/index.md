@@ -15,7 +15,7 @@ tags = ["Prerequisites"]
 series = ["Docs"]
 images = []
 navWeight = 90
-authors = ["RazonYang"]
+authors = ["syncriix"]
 +++
 
 Please make sure you meet the prerequisites prior to installing the theme.

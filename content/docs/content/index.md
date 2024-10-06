@@ -19,7 +19,7 @@ series = [
 ]
 images = []
 navWeight = 970
-authors = ["RazonYang"]
+authors = ["syncriix"]
 [menu.footer]
   parent = "docs"
   weight = 5
@@ -197,8 +197,8 @@ Finally, we may need to introduce the author in more detail. Take the `Foo` as a
 title: Razon Yang
 description: Gopher, PHPer, Full Stack Engineer.
 social:
-  github: razonyang
-  twitter: razonyang
+  github: syncriix
+  twitter: syncriix
 ---
 ```
 

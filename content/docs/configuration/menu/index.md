@@ -22,7 +22,7 @@ aliases = [
   "/en/docs/menu"
 ]
 navWeight = 900
-authors = ["RazonYang"]
+authors = ["syncriix"]
 featuredImageAlt = "Menu example"
 +++
 

@@ -18,7 +18,7 @@ images = []
 aliases = [
   "/en/posts/image-viewer"
 ]
-authors = ["RazonYang"]
+authors = ["syncriix"]
 navWeight = 810
 [menu.footer]
   parent = "features"

@@ -7,13 +7,13 @@ The starter template for [Hugo Bootstrap Theme](https://github.com/razonyang/hug
 | Platform | URL |
 |---|---|
 | Netlify | https://hbs-skeleton.netlify.app/ |
-| GitHub Pages | https://projects.razonyang.com/hugo-theme-bootstrap-skeleton/ |
+| GitHub Pages | https://projects.e2tc.netlify.app/hugo-theme-bootstrap-skeleton/ |
 | Cloudflare Pages | https://hbs-skeleton.pages.dev/ |
 | Docker image | See also [Dockerfile](Dockerfile) |
 
 ## Usage
 
-Please make sure you have install the [build tools](https://hbs.razonyang.com/v1/en/docs/getting-started/prerequisites/#build-tools) prior to using this template.
+Please make sure you have install the [build tools](https://e2tc.netlify.app//v1/en/docs/getting-started/prerequisites/#build-tools) prior to using this template.
 
 **1. Clone this repository**
 
@@ -22,7 +22,7 @@ It's recommending cloning the repo by clicking the `Use this template` button, i
 You can also clone it manually.
 
 ```shell
-$ git clone https://github.com/razonyang/hugo-theme-bootstrap-skeleton.git blog
+$ git clone https://github.com/syncriix/hugo-theme-bootstrap-skeleton.git blog
 $ cd blog
 $ rm -rf .git
 $ git init -b main
@@ -35,7 +35,7 @@ $ git init -b main
 Replace the following line to yours, such as `module github.com/user/repo`.
 
 ```text
-module github.com/razonyang/hugo-theme-bootstrap-skeleton
+module github.com/syncriix/hugo-theme-bootstrap-skeleton
 ```
 
 **3. Commit and push changes to your repository**
@@ -104,7 +104,7 @@ You can also replace the `master` with stable [releases](https://github.com/razo
 
 - `.github/workflows/gh-pages.yml`
 
-This template supports GitHub Pages, Docker image, Netlify out-of-box. See also [Deployment](https://hbs.razonyang.com/v1/en/docs/deployment/) for getting more detail.
+This template supports GitHub Pages, Docker image, Netlify out-of-box. See also [Deployment](https://e2tc.netlify.app//v1/en/docs/deployment/) for getting more detail.
 
 The following parameters also need to be tweaked.
 
@@ -116,6 +116,6 @@ There are some hooks under the `layouts/partials/hooks` folder for showing how t
 
 ## Documentations
 
-- [English](https://hbs.razonyang.com/v1/en/)
-- [简体中文](https://hbs.razonyang.com/v1/zh-hans/)
-- [繁體中文](https://hbs.razonyang.com/v1/zh-hant/)
+- [English](https://e2tc.netlify.app//v1/en/)
+- [简体中文](https://e2tc.netlify.app//v1/zh-hans/)
+- [繁體中文](https://e2tc.netlify.app//v1/zh-hant/)

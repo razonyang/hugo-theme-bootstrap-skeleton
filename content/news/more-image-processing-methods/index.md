@@ -19,7 +19,7 @@ tags:
   - Fill
   - Filters
 authors:
-  - RazonYang
+  - syncriix
 images: []
 ---
 
@@ -27,4 +27,4 @@ Since `v1.0.0-alpha.1`, HBS supports much more image processing methods. Such as
 
 <!--more-->
 
-See also [Image Processing](https://hbs.razonyang.com/v1/en/docs/image-processing/).
+See also [Image Processing](https://e2tc.netlify.app//v1/en/docs/image-processing/).

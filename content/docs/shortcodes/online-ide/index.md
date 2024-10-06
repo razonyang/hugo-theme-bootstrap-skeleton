@@ -18,7 +18,7 @@ images = []
 aliases = [
   "/en/posts/shortcodes/online-ide"
 ]
-authors = ["RazonYang"]
+authors = ["syncriix"]
 +++
 
 A detailed description of online IDE shortcodes, such as JSFiddle, CodePen, JSRun.

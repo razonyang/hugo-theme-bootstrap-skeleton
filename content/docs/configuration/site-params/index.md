@@ -16,7 +16,7 @@ series = [
 ]
 images = []
 navWeight = 980
-authors = ["RazonYang"]
+authors = ["syncriix"]
 +++
 
 The site parameters are located in `config/_default/params.toml` by default.

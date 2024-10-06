@@ -18,7 +18,7 @@ images = []
 aliases = [
   "/en/posts/widgets/reward"
 ]
-authors = ["RazonYang"]
+authors = ["syncriix"]
 # [menu.footer]
 #   parent = "features"
 #   weight = 7

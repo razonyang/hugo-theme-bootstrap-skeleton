@@ -16,7 +16,7 @@ series = [
 ]
 images = []
 navWeight = 990
-authors = ["RazonYang"]
+authors = ["syncriix"]
 +++
 
 The site configuration is located in `config/_default/config.toml` by default.
