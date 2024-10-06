@@ -35,8 +35,7 @@ build:
   writeStats: true
 
 enableGitInfo: true
-  repo: Syncriix
-    url: https://github.com/Syncriix/hugo-theme-bootstrap-skeleton
+repo.url: https://github.com/Syncriix/hugo-theme-bootstrap-skeleton
 
 
 permalinks:
