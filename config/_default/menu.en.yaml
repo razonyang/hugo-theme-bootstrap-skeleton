@@ -1,6 +1,6 @@
 main:
   - name: Documentations
     identifier: documentations
-    url: https://e2tc.netlify.app//v1/en/docs/
+    url: https://e2tc.netlify.app/docs/
     params:
       icon: '<i class="fas fa-fw fa-book"></i>'
