@@ -1,8 +1,12 @@
 +++
 title = "Introduction"
 linkTitle = "Intro"
-date = 2024-10-06T10:43:39+08:00
-navWeight = 970
+navWeight = 1000
+toc = true
+reward = true
+series = [
+  "xqisit"
+]
 authors = ["Syncriix"]
 +++
 ## The Cluster: A Symphony of Servers

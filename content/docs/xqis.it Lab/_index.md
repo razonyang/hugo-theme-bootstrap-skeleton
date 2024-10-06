@@ -2,8 +2,12 @@
 title = "Exquisite Laboratories"
 linkTitle = "xqis.it Lab"
 linkTitleIcon = '<i class="fas fa-server fa-fw"></i>'
-date = 2024-10-06T10:43:39+08:00
-navWeight = 970
+navWeight = 1000
+toc = true
+reward = true
+series = [
+  "xqisit"
+]
 authors = ["Syncriix"]
 +++
 
