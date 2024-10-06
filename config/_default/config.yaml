@@ -34,6 +34,11 @@ taxonomies:
 build:
   writeStats: true
 
+enableGitInfo: true
+  repo: Syncriix
+    url: https://github.com/Syncriix/hugo-theme-bootstrap-skeleton
+
+
 permalinks:
   news: /news/:year/:month/:title/
   blog: /blog/:year/:month/:title/
