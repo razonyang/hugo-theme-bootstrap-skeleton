@@ -1,8 +1,8 @@
 (() => {
-  // ns-params:@params
-  var params_default = { baseURL: "https://projects.razonyang.com/hugo-theme-bootstrap-skeleton/" };
+  // ns-hugo-params:/tmp/hugo_cache_runner/modules/filecache/modules/pkg/mod/github.com/razonyang/hugo-theme-bootstrap@v1.12.1/assets/js/local-storage/index.ts
+  var local_storage_default = { baseURL: "https://projects.razonyang.com/hugo-theme-bootstrap-skeleton/" };
 
-  // ns-hugo:/tmp/hugo_cache_runner/modules/filecache/modules/pkg/mod/github.com/razonyang/hugo-theme-bootstrap@v1.7.2/assets/js/local-storage/index.ts
+  // ns-hugo-imp:/tmp/hugo_cache_runner/modules/filecache/modules/pkg/mod/github.com/razonyang/hugo-theme-bootstrap@v1.12.1/assets/js/local-storage/index.ts
   var PathLocalStorage = class {
     constructor(baseURL) {
       this.baseURL = baseURL;
@@ -31,11 +31,11 @@
       localStorage.removeItem(this.prefix + key);
     }
   };
-  var local_storage_default = new PathLocalStorage(params_default.baseURL);
+  var local_storage_default2 = new PathLocalStorage(local_storage_default.baseURL);
 
   // <stdin>
   (() => {
-    if (local_storage_default.getItem("sidebar-toggle") !== null && document.querySelector("main")?.getAttribute("data-kind") === "page") {
+    if (local_storage_default2.getItem("sidebar-toggle") !== null && document.querySelector("main")?.getAttribute("data-kind") === "page") {
       document.querySelector("main")?.classList.add("sidebar-none");
     }
   })();
